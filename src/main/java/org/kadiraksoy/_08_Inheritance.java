@@ -49,17 +49,19 @@ public class _08_Inheritance {
         }
     }
 
-    class UstSinif {
+    public class UstSinif {
         public UstSinif() {
             System.out.println("UstSinif yapıcı metodu çağrıldı");
         }
+
+
 
         public void birMetod() {
             System.out.println("UstSinif birMetod metodu çağrıldı");
         }
     }
 
-    class AltSinif extends UstSinif {
+    public class AltSinif extends UstSinif {
         public AltSinif() {
             super();  // UstSinif'ın yapıcı metodu çağrılıyor
             System.out.println("AltSinif yapıcı metodu çağrıldı");
