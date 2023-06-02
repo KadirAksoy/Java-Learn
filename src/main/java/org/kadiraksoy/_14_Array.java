@@ -2,7 +2,7 @@ package org.kadiraksoy;
 
 import java.util.Arrays;
 
-public class _13_Array {
+public class _14_Array {
 
     public static void main(String[] args) {
         int[] numbers = {5, 2, 8, 3, 1};
