@@ -1,6 +1,6 @@
 package org.kadiraksoy;
 
-public class LoopsAndCondition {
+public class _04_LoopsAndCondition {
 
     public static void main(String[] args) {
         //if-else Koşul Örneği:

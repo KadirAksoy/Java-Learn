@@ -1,7 +1,7 @@
 package org.kadiraksoy;
 import java.util.Scanner;
 
-public class PrintAndScanner {
+public class _03_PrintAndScanner {
 
     public static void main(String[] args) {
         // Basit metin çıktısı:

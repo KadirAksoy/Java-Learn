@@ -1,6 +1,6 @@
 package org.kadiraksoy;
 
-public class Operators {
+public class _02_Operators {
 
     public static void main(String[] args) {
 

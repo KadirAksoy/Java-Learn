@@ -2,7 +2,7 @@ package org.kadiraksoy;
 
 import java.util.Scanner;
 
-public class TryCatch {
+public class _05_TryCatch {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
