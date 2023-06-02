@@ -13,7 +13,18 @@ public class _10_Generic {
         public T getItem() {
             return item;
         }
+
     }
+
+    class ArrayUtil {
+        public static <T> void printArray(T[] array) {
+            for (T item : array) {
+                System.out.print(item + " ");
+            }
+            System.out.println();
+        }
+    }
+
     public  void main(String[] args) {
         // String tipinde bir Box oluşturma
         Box<String> stringBox = new Box<>();
@@ -26,6 +37,24 @@ public class _10_Generic {
         integerBox.setItem(10);
         int intItem = integerBox.getItem();
         System.out.println("Integer Box Item: " + intItem);
+
+
+        // List
+        Integer[] intArray = {1, 2, 3, 4, 5};
+        Double[] doubleArray = {1.1, 2.2, 3.3, 4.4, 5.5};
+        String[] stringArray = {"Java", "is", "awesome"};
+
+        //ArrayList
+        System.out.println("Integer Array:");
+        ArrayUtil.printArray(intArray);
+
+        //Double ArrayList
+        System.out.println("Double Array:");
+        ArrayUtil.printArray(doubleArray);
+
+        //String ArrayList
+        System.out.println("String Array:");
+        ArrayUtil.printArray(stringArray);
     }
 
 }
