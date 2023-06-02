@@ -55,11 +55,10 @@ public class _16_OptionalAndIterator {
         /////////////////////////////////////////////
 
 
-        // liste adında bir ArrayList oluşturuyoruz ve bazı elemanlar ekliyoruz.
-        // Sonra liste üzerinde bir Iterator oluşturarak iterator() metodunu kullanıyoruz.
-        // hasNext() metoduyla bir sonraki elemanın olup olmadığını kontrol ediyor
-        // ve next() metoduyla her bir elemana erişiyoruz.
-        // Bu şekilde, Iterator aracılığıyla koleksiyonun her bir elemanına erişebiliriz.
+        // Bir Iterator kullanarak, koleksiyon üzerinde döngü oluşturabilir
+        // ve her bir elemana sırayla erişebilirsiniz.
+        // Iterator'ün hasNext() metodu, koleksiyonda bir sonraki elemanın olup olmadığını kontrol ederken,
+        // next() metodu, koleksiyondaki bir sonraki elemana erişmenizi sağlar.
         ArrayList<String> liste = new ArrayList<>();
         liste.add("Kırmızı");
         liste.add("Mavi");
