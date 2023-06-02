@@ -1,8 +1,10 @@
 package org.kadiraksoy;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.Optional;
 
-public class _16_Optional {
+public class _16_OptionalAndIterator {
 
     public static void main(String[] args) {
         String name = "Kadir Aksoy";
@@ -47,6 +49,27 @@ public class _16_Optional {
         String name3 = "Kadir Baran Aksoy";
         Optional<String> optionalName4 = Optional.ofNullable(name);
         optionalName.ifPresent(n -> System.out.println("Name: " + n));
+
+
+
+        /////////////////////////////////////////////
+
+
+        // liste adında bir ArrayList oluşturuyoruz ve bazı elemanlar ekliyoruz.
+        // Sonra liste üzerinde bir Iterator oluşturarak iterator() metodunu kullanıyoruz.
+        // hasNext() metoduyla bir sonraki elemanın olup olmadığını kontrol ediyor
+        // ve next() metoduyla her bir elemana erişiyoruz.
+        // Bu şekilde, Iterator aracılığıyla koleksiyonun her bir elemanına erişebiliriz.
+        ArrayList<String> liste = new ArrayList<>();
+        liste.add("Kırmızı");
+        liste.add("Mavi");
+        liste.add("Yeşil");
+
+        Iterator<String> iterator = liste.iterator();
+        while (iterator.hasNext()) {
+            String eleman = iterator.next();
+            System.out.println(eleman);
+        }
     }
 
     private static String calculateDefaultValue() {
