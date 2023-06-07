@@ -43,7 +43,7 @@ public class _17_Collection {
 
 
         HashSet<Integer> number = new HashSet<>();      // Set yapısı birden fazla aynı değere izin vermez unique dir
-        number.size();
+        number.size();    // boyutu verir
 
 
 
@@ -59,6 +59,23 @@ public class _17_Collection {
         numberList.add(15);
 
         System.out.println(numberList);
+
+        LinkedList liste = new LinkedList<>();
+        liste.add("1");
+        liste.add(1);
+
+        System.out.println(liste);
+
+        //////
+
+        int[] num = new int[5];
+        num[0] = 0;
+        num[1] = 1;
+        num[2] = 2;
+        num[3] = 3;
+        num[4] = 4;
+
+        System.out.println(num.toString());
 
 
 
