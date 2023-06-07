@@ -1,9 +1,6 @@
 package org.kadiraksoy;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Queue;
+import java.util.*;
 
 public class _17_Collection {
 
@@ -45,8 +42,23 @@ public class _17_Collection {
         cities.size();
 
 
-        HashSet<Integer> number = new HashSet<>();
+        HashSet<Integer> number = new HashSet<>();      // Set yapısı birden fazla aynı değere izin vermez unique dir
         number.size();
+
+
+
+        Collection<Integer> numberList = new TreeSet<>();   // Set ile aynıdır aynı zamanda verileri sıralar.
+        numberList.add(1);
+        numberList.add(1);
+        numberList.add(2);
+        numberList.add(3);
+        numberList.add(4);
+        numberList.add(5);
+        numberList.add(11);
+        numberList.add(8);
+        numberList.add(15);
+
+        System.out.println(numberList);
 
 
 
