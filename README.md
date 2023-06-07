@@ -34,3 +34,8 @@ Java lessons
  ArrayList
  # Lesson-16 
  OptionalAndIterator
+ # Lesson-17
+ Collection
+ # Lesson-18
+ StreamAPI
+
