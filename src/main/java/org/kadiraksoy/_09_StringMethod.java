@@ -129,5 +129,17 @@ public class _09_StringMethod {
         System.out.println("Is empty: " + empty2);
 
 
+        //  Dönüştürme İşlemleri
+
+        String str300 = "123";
+        int number = Integer.parseInt(str300);
+        System.out.println("Dönüştürülen sayı: " + number);
+
+        int number = 123;
+        String str301 = Integer.toString(number);
+        System.out.println("Dönüştürülen string: " + str301);
+        
+
+
     }
 }
